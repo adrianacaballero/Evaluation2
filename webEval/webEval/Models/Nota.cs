@@ -24,6 +24,7 @@ namespace webEval.Models
         public int Grades { get; set; }
         [Required]
         public TypeState State { get; set; }
+
         public Estudiante Estudiante { get; set; }
     }
 }
