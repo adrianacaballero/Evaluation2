@@ -18,6 +18,6 @@
         [Required]
         public int Birthdate { get; set; }
 
-        public virtual ICollection<Nota> Notas { get; set; }
+        
     }
 }
